@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"offspace/pkg/schemas"
+	"github.com/kasfil/offspace/pkg/schemas"
 
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"

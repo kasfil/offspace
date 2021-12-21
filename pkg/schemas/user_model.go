@@ -3,7 +3,7 @@ package schemas
 import (
 	"errors"
 
-	"pkg/utils"
+	"github.com/kasfil/offspace/pkg/utils"
 
 	"gorm.io/gorm"
 )

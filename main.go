@@ -1,9 +1,11 @@
 package main
 
 import (
-	"offspace/pkg/configs"
 	"offspace/pkg/routes"
-	"offspace/pkg/utils"
+
+	"github.com/kasfil/offspace/pkg/utils"
+
+	"github.com/kasfil/github.com/kasfil/offspace/pkg/configs"
 
 	"github.com/gofiber/fiber/v2"
 )

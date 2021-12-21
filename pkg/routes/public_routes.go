@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"offspace/app/controllers"
+	"github.com/kasfil/offspace/app/controllers"
 
 	"github.com/gofiber/fiber/v2"
 )

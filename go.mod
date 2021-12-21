@@ -1,4 +1,4 @@
-module offspace
+module github.com/kasfil/offspace
 
 go 1.17
 
