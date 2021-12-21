@@ -1,0 +1,17 @@
+app_name: "offspace"
+stage: "development"
+
+read_timeout: 3
+static_cache: 10
+
+hash_time: 2
+hash_memory: 16 # in MiB
+hash_threads: 4
+hash_keylen: 32
+
+database_host: "localhost"
+database_port: 3306
+database_user: "offspace"
+database_pass: "offspace"
+database_name: "offspace"
+database_charset: "utf8mb4"

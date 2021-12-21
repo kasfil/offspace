@@ -1,0 +1,21 @@
+services:
+
+  mariadb:
+    image: mariadb:10
+    restart: always
+    profiles: ["debug", "production"]
+    environment:
+      MYSQL_ROOT_PASSWORD: "mariadb_root"
+      MYSQL_USER: "offspace"
+      MYSQL_PASSWORD: "offspace"
+      MYSQL_DATABASE: "offspace"
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./tmp:/var/lib/mysql"
+
+  redis:
+    image: redis:alpine
+    profiles: ["debug", "production"]
+    ports:
+      - "6379:6379"
